@@ -16164,6 +16164,12 @@
 		(uuid "56b5b81c-88fd-4574-bfa9-170ed6d0b937")
 	)
 	(junction
+		(at 412.75 403.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "579851e0-ff00-49a7-9410-9c0945c32a0d")
+	)
+	(junction
 		(at 393.7 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16510,6 +16516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b098c678-52c3-401f-a236-69b27c0a734e")
+	)
+	(junction
+		(at 411.48 372.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b17bb2fa-1c00-4013-9bc7-c06dd0128e38")
 	)
 	(junction
 		(at 421.64 198.12)
@@ -18841,7 +18853,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 372.11) (xy 400.05 372.11)
+			(xy 419.1 372.11) (xy 411.48 372.11)
 		)
 		(stroke
 			(width 0)
@@ -19271,7 +19283,7 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 403.86) (xy 419.1 403.86)
+			(xy 400.05 403.86) (xy 412.75 403.86)
 		)
 		(stroke
 			(width 0)
@@ -20411,7 +20423,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 387.35) (xy 384.81 384.81)
+			(xy 384.81 386.08) (xy 384.81 384.81)
 		)
 		(stroke
 			(width 0)
@@ -20871,6 +20883,16 @@
 	)
 	(wire
 		(pts
+			(xy 411.48 372.11) (xy 400.05 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7283411e-67fe-42aa-8b9a-3aa3929bc682")
+	)
+	(wire
+		(pts
 			(xy 76.2 226.06) (xy 91.44 226.06)
 		)
 		(stroke
@@ -21238,6 +21260,16 @@
 			(type default)
 		)
 		(uuid "7de7ec41-bc06-4cd7-b044-3d9aad1df663")
+	)
+	(wire
+		(pts
+			(xy 412.75 403.86) (xy 419.1 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfb9b50-2331-42b2-b37a-1640a1896e33")
 	)
 	(wire
 		(pts
@@ -21971,6 +22003,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 391.16) (xy 375.92 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995d94f4-9171-4513-bdcf-4cb7e510cbf2")
+	)
+	(wire
+		(pts
 			(xy 132.08 394.97) (xy 119.38 394.97)
 		)
 		(stroke
@@ -22701,7 +22743,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 387.35) (xy 375.92 384.81)
+			(xy 375.92 386.08) (xy 375.92 384.81)
 		)
 		(stroke
 			(width 0)
@@ -24168,6 +24210,16 @@
 			(type default)
 		)
 		(uuid "eb6d8b16-2e50-4a97-a497-f0523fd6faf5")
+	)
+	(wire
+		(pts
+			(xy 384.81 391.16) (xy 384.81 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb848325-293d-4e54-b9b7-8d02db2cb42a")
 	)
 	(wire
 		(pts
@@ -26663,7 +26715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS175"
+		(property "Datasheet" ""
 			(at 91.44 48.26 0)
 			(effects
 				(font
@@ -26771,7 +26823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 104.14 93.98 0)
 			(effects
 				(font
@@ -26873,7 +26925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 567.69 193.04 0)
 			(effects
 				(font
@@ -26978,7 +27030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 40.64 250.19 0)
 			(effects
 				(font
@@ -27082,7 +27134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 567.69 181.61 0)
 			(effects
 				(font
@@ -27184,7 +27236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 167.64 67.31 0)
 			(effects
 				(font
@@ -27286,7 +27338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 279.4 246.38 0)
 			(effects
 				(font
@@ -27390,7 +27442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 567.69 170.18 0)
 			(effects
 				(font
@@ -27493,7 +27545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 123.19 55.88 0)
 			(effects
 				(font
@@ -27596,7 +27648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 138.43 53.34 0)
 			(effects
 				(font
@@ -27700,7 +27752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 142.24 123.19 0)
 			(effects
 				(font
@@ -27804,7 +27856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 124.46 123.19 0)
 			(effects
 				(font
@@ -27908,7 +27960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 567.69 87.63 0)
 			(effects
 				(font
@@ -28012,7 +28064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 165.1 124.46 0)
 			(effects
 				(font
@@ -28115,7 +28167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 406.4 198.12 0)
 			(effects
 				(font
@@ -28217,7 +28269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 179.07 177.8 0)
 			(effects
 				(font
@@ -28321,7 +28373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 567.69 76.2 0)
 			(effects
 				(font
@@ -28425,7 +28477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 121.92 107.95 0)
 			(effects
 				(font
@@ -28529,7 +28581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 144.78 107.95 0)
 			(effects
 				(font
@@ -28633,7 +28685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 567.69 64.77 0)
 			(effects
 				(font
@@ -28737,7 +28789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 77.47 349.25 0)
 			(effects
 				(font
@@ -28839,7 +28891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 93.98 294.64 0)
 			(effects
 				(font
@@ -28941,7 +28993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 24.13 250.19 0)
 			(effects
 				(font
@@ -29045,7 +29097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 137.16 304.8 0)
 			(effects
 				(font
@@ -29147,7 +29199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 154.94 387.35 0)
 			(effects
 				(font
@@ -29251,7 +29303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 567.69 53.34 0)
 			(effects
 				(font
@@ -29355,7 +29407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS10"
+		(property "Datasheet" ""
 			(at 163.83 200.66 0)
 			(effects
 				(font
@@ -29457,7 +29509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS10"
+		(property "Datasheet" ""
 			(at 229.87 281.94 0)
 			(effects
 				(font
@@ -29559,7 +29611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS10"
+		(property "Datasheet" ""
 			(at 179.07 163.83 0)
 			(effects
 				(font
@@ -29663,7 +29715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS10"
+		(property "Datasheet" ""
 			(at 567.69 41.91 0)
 			(effects
 				(font
@@ -29768,7 +29820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 236.22 227.33 0)
 			(effects
 				(font
@@ -29871,7 +29923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 219.71 195.58 0)
 			(effects
 				(font
@@ -29974,7 +30026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 226.06 180.34 0)
 			(effects
 				(font
@@ -30078,7 +30130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 205.74 218.44 0)
 			(effects
 				(font
@@ -30182,7 +30234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 567.69 133.35 0)
 			(effects
 				(font
@@ -30286,7 +30338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 77.47 210.82 0)
 			(effects
 				(font
@@ -30388,7 +30440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 292.1 331.47 0)
 			(effects
 				(font
@@ -30490,7 +30542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 148.59 328.93 0)
 			(effects
 				(font
@@ -30594,7 +30646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 93.98 210.82 0)
 			(effects
 				(font
@@ -30698,7 +30750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 567.69 121.92 0)
 			(effects
 				(font
@@ -30800,7 +30852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 292.1 345.44 0)
 			(effects
 				(font
@@ -30904,7 +30956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 567.69 110.49 0)
 			(effects
 				(font
@@ -31006,7 +31058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 148.59 294.64 0)
 			(effects
 				(font
@@ -31109,7 +31161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 148.59 314.96 0)
 			(effects
 				(font
@@ -31213,7 +31265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 567.69 99.06 0)
 			(effects
 				(font
@@ -31316,7 +31368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 196.85 166.37 0)
 			(effects
 				(font
@@ -31419,7 +31471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 241.3 182.88 0)
 			(effects
 				(font
@@ -31521,7 +31573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 189.23 304.8 0)
 			(effects
 				(font
@@ -31625,7 +31677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 567.69 30.48 0)
 			(effects
 				(font
@@ -31727,7 +31779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 389.89 276.86 0)
 			(effects
 				(font
@@ -31830,7 +31882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 368.3 271.78 0)
 			(effects
 				(font
@@ -31933,7 +31985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 349.25 266.7 0)
 			(effects
 				(font
@@ -32037,7 +32089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 567.69 19.05 0)
 			(effects
 				(font
@@ -32139,7 +32191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 382.27 332.74 0)
 			(effects
 				(font
@@ -32241,7 +32293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 407.67 309.88 0)
 			(effects
 				(font
@@ -32345,7 +32397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 434.34 355.6 0)
 			(effects
 				(font
@@ -32450,7 +32502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 419.1 355.6 0)
 			(effects
 				(font
@@ -32554,7 +32606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 567.69 144.78 0)
 			(effects
 				(font
@@ -32862,7 +32914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf"
+		(property "Datasheet" ""
 			(at 91.44 243.84 0)
 			(effects
 				(font
@@ -32970,7 +33022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS153"
+		(property "Datasheet" ""
 			(at 139.7 233.68 0)
 			(effects
 				(font
@@ -33078,7 +33130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS93"
+		(property "Datasheet" ""
 			(at 209.55 307.34 0)
 			(effects
 				(font
@@ -33168,7 +33220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS93"
+		(property "Datasheet" ""
 			(at 53.34 382.27 0)
 			(effects
 				(font
@@ -33258,7 +33310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS93"
+		(property "Datasheet" ""
 			(at 92.71 382.27 0)
 			(effects
 				(font
@@ -33348,7 +33400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS93"
+		(property "Datasheet" ""
 			(at 132.08 382.27 0)
 			(effects
 				(font
@@ -33438,7 +33490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" ""
 			(at 314.96 295.91 0)
 			(effects
 				(font
@@ -33558,7 +33610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS367"
+		(property "Datasheet" ""
 			(at 279.4 207.01 0)
 			(effects
 				(font
@@ -33666,7 +33718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS367"
+		(property "Datasheet" ""
 			(at 279.4 160.02 0)
 			(effects
 				(font
@@ -33775,7 +33827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 209.55 67.31 0)
 			(effects
 				(font
@@ -33878,7 +33930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 209.55 87.63 0)
 			(effects
 				(font
@@ -33981,7 +34033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 209.55 26.67 0)
 			(effects
 				(font
@@ -34084,7 +34136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 209.55 46.99 0)
 			(effects
 				(font
@@ -34187,7 +34239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 209.55 109.22 0)
 			(effects
 				(font
@@ -34290,7 +34342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 209.55 130.81 0)
 			(effects
 				(font
@@ -34393,7 +34445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4052b.pdf"
+		(property "Datasheet" ""
 			(at 443.992 154.94 0)
 			(effects
 				(font
@@ -34501,7 +34553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS259"
+		(property "Datasheet" ""
 			(at 494.03 217.17 0)
 			(effects
 				(font
@@ -34609,7 +34661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS13"
+		(property "Datasheet" ""
 			(at 25.4 389.89 0)
 			(effects
 				(font
@@ -34705,7 +34757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS13"
+		(property "Datasheet" ""
 			(at 119.38 331.47 0)
 			(effects
 				(font
@@ -34803,7 +34855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS13"
+		(property "Datasheet" ""
 			(at 567.69 156.21 0)
 			(effects
 				(font
@@ -34899,7 +34951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS42"
+		(property "Datasheet" ""
 			(at 114.3 297.18 0)
 			(effects
 				(font
@@ -36436,7 +36488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 506.73 76.2 0)
 			(effects
 				(font
@@ -36521,7 +36573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 506.73 60.96 0)
 			(effects
 				(font
@@ -36607,7 +36659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 436.88 30.48 0)
 			(effects
 				(font
@@ -36692,7 +36744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 506.73 91.44 0)
 			(effects
 				(font
@@ -36777,7 +36829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 506.73 106.68 0)
 			(effects
 				(font
@@ -36863,7 +36915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 447.04 30.48 0)
 			(effects
 				(font
@@ -36948,7 +37000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 506.73 121.92 0)
 			(effects
 				(font
@@ -37033,7 +37085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 506.73 152.4 0)
 			(effects
 				(font
@@ -37119,7 +37171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 455.93 30.48 0)
 			(effects
 				(font
@@ -37204,7 +37256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 506.73 167.64 0)
 			(effects
 				(font
@@ -37289,7 +37341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 506.73 137.16 0)
 			(effects
 				(font
@@ -37375,7 +37427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+		(property "Datasheet" ""
 			(at 464.82 30.48 0)
 			(effects
 				(font
@@ -37462,7 +37514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+		(property "Datasheet" ""
 			(at 364.49 386.08 0)
 			(effects
 				(font
@@ -37805,7 +37857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 35.56 29.21 0)
 			(effects
 				(font
@@ -37873,7 +37925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -37941,7 +37993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 35.56 67.31 0)
 			(effects
 				(font
@@ -38135,7 +38187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 72.39 0)
 			(effects
 				(font
@@ -38330,7 +38382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 29.21 48.26 0)
 			(effects
 				(font
@@ -38461,7 +38513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.citylan.it/wiki/images/3/39/D2102.pdf"
+		(property "Datasheet" ""
 			(at 50.8 99.06 0)
 			(effects
 				(font
@@ -38955,7 +39007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 161.29 157.48 0)
 			(effects
 				(font
@@ -39343,7 +39395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 189.23 21.59 0)
 			(effects
 				(font
@@ -39665,7 +39717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 382.27 60.96 0)
 			(effects
 				(font
@@ -39731,7 +39783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 382.27 100.33 0)
 			(effects
 				(font
@@ -39797,7 +39849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 382.27 119.38 0)
 			(effects
 				(font
@@ -39863,7 +39915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 382.27 81.28 0)
 			(effects
 				(font
@@ -39929,7 +39981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 384.81 138.43 0)
 			(effects
 				(font
@@ -39995,7 +40047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 384.81 173.99 0)
 			(effects
 				(font
@@ -40127,7 +40179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 408.94 30.48 0)
 			(effects
 				(font
@@ -40195,7 +40247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 393.7 24.13 0)
 			(effects
 				(font
@@ -40263,7 +40315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 393.7 39.37 0)
 			(effects
 				(font
@@ -40331,7 +40383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 401.32 39.37 0)
 			(effects
 				(font
@@ -40398,7 +40450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" ""
 			(at 375.92 33.02 0)
 			(effects
 				(font
@@ -40484,7 +40536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 374.65 43.18 0)
 			(effects
 				(font
@@ -40551,7 +40603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" ""
 			(at 408.94 154.94 0)
 			(effects
 				(font
@@ -40637,7 +40689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+		(property "Datasheet" ""
 			(at 473.71 30.48 0)
 			(effects
 				(font
@@ -40721,7 +40773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 43.18 495.3 0)
 			(effects
 				(font
@@ -40823,7 +40875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 43.18 474.98 0)
 			(effects
 				(font
@@ -40925,7 +40977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 88.9 458.47 0)
 			(effects
 				(font
@@ -41027,7 +41079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" ""
 			(at 88.9 487.68 0)
 			(effects
 				(font
@@ -41129,7 +41181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 113.03 438.15 0)
 			(effects
 				(font
@@ -41231,7 +41283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 115.57 502.92 0)
 			(effects
 				(font
@@ -41333,7 +41385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 114.3 487.68 0)
 			(effects
 				(font
@@ -41435,7 +41487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 114.3 471.17 0)
 			(effects
 				(font
@@ -41537,7 +41589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" ""
 			(at 113.03 455.93 0)
 			(effects
 				(font
@@ -41639,7 +41691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 68.58 497.84 0)
 			(effects
 				(font
@@ -41741,7 +41793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 68.58 485.14 0)
 			(effects
 				(font
@@ -41843,7 +41895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 67.31 471.17 0)
 			(effects
 				(font
@@ -41945,7 +41997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 67.31 455.93 0)
 			(effects
 				(font
@@ -42047,7 +42099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" ""
 			(at 67.31 439.42 0)
 			(effects
 				(font
@@ -42149,7 +42201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" ""
 			(at 88.9 472.44 0)
 			(effects
 				(font
@@ -42251,7 +42303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 133.35 440.69 0)
 			(effects
 				(font
@@ -42353,7 +42405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" ""
 			(at 133.35 463.55 0)
 			(effects
 				(font
@@ -42457,7 +42509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 389.89 53.34 0)
 			(effects
 				(font
@@ -42525,7 +42577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 389.89 69.85 0)
 			(effects
 				(font
@@ -42593,7 +42645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 389.89 90.17 0)
 			(effects
 				(font
@@ -42661,7 +42713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 389.89 110.49 0)
 			(effects
 				(font
@@ -42729,7 +42781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 389.89 128.27 0)
 			(effects
 				(font
@@ -42797,7 +42849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 389.89 148.59 0)
 			(effects
 				(font
@@ -42929,7 +42981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 172.72 0)
 			(effects
 				(font
@@ -42997,7 +43049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 157.48 0)
 			(effects
 				(font
@@ -43065,7 +43117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 142.24 0)
 			(effects
 				(font
@@ -43133,7 +43185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 127 0)
 			(effects
 				(font
@@ -43201,7 +43253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 111.76 0)
 			(effects
 				(font
@@ -43269,7 +43321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 96.52 0)
 			(effects
 				(font
@@ -43337,7 +43389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 81.28 0)
 			(effects
 				(font
@@ -43405,7 +43457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 66.04 0)
 			(effects
 				(font
@@ -43463,7 +43515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W10.16mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm_LongPads"
 			(at 349.25 236.22 0)
 			(effects
 				(font
@@ -43597,7 +43649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
 			(at 436.88 387.35 0)
 			(effects
 				(font
@@ -43606,7 +43658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 436.88 387.35 0)
 			(effects
 				(font
@@ -43674,7 +43726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 350.8248 379.73 0)
 			(effects
 				(font
@@ -43705,7 +43757,7 @@
 		(at 476.25 360.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f6ed022")
@@ -43736,7 +43788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 476.25 360.68 0)
 			(effects
 				(font
@@ -43767,7 +43819,7 @@
 		(at 494.03 360.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f6ed353")
@@ -43798,7 +43850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 360.68 0)
 			(effects
 				(font
@@ -43826,72 +43878,10 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 476.25 365.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f6ee049")
-		(property "Reference" "H3"
-			(at 478.79 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 478.79 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 476.25 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 476.25 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 476.25 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "P3"
-				(path "/b94c0cc6-780f-4e33-9eb2-931a72fdabfa"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
 		(at 494.03 365.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f6ee04f")
@@ -43922,7 +43912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 365.76 0)
 			(effects
 				(font
@@ -44082,7 +44072,7 @@
 		(at 476.25 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f76c77a")
@@ -44113,7 +44103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 476.25 370.84 0)
 			(effects
 				(font
@@ -44128,6 +44118,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -44144,7 +44135,7 @@
 		(at 494.03 370.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f76c780")
@@ -44175,7 +44166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 494.03 370.84 0)
 			(effects
 				(font
@@ -44334,7 +44325,7 @@
 		(at 476.25 355.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7eadab")
@@ -44365,7 +44356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 476.25 355.6 0)
 			(effects
 				(font
@@ -44386,68 +44377,6 @@
 			(project "P3"
 				(path "/b94c0cc6-780f-4e33-9eb2-931a72fdabfa"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 494.03 355.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f7eadb1")
-		(property "Reference" "H5"
-			(at 496.57 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 496.57 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 494.03 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 494.03 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 494.03 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "P3"
-				(path "/b94c0cc6-780f-4e33-9eb2-931a72fdabfa"
-					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -44937,7 +44866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 220.98 0)
 			(effects
 				(font
@@ -45005,7 +44934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 233.68 0)
 			(effects
 				(font
@@ -45073,7 +45002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 293.37 388.62 0)
 			(effects
 				(font
@@ -45141,7 +45070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 302.26 388.62 0)
 			(effects
 				(font
@@ -45209,7 +45138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 311.15 388.62 0)
 			(effects
 				(font
@@ -45277,7 +45206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 320.04 388.62 0)
 			(effects
 				(font
@@ -45345,7 +45274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 327.66 388.62 0)
 			(effects
 				(font
@@ -45413,7 +45342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 388.62 0)
 			(effects
 				(font
@@ -45481,7 +45410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 345.44 388.62 0)
 			(effects
 				(font
@@ -45547,7 +45476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 227.33 0)
 			(effects
 				(font
@@ -46000,7 +45929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 27.94 278.13 0)
 			(effects
 				(font
@@ -46093,7 +46022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 27.94 303.53 0)
 			(effects
 				(font
@@ -46171,7 +46100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 27.94 323.85 0)
 			(effects
 				(font
@@ -46264,7 +46193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 27.94 346.71 0)
 			(effects
 				(font
@@ -47178,7 +47107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 284.48 388.62 0)
 			(effects
 				(font
@@ -47246,7 +47175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 275.59 388.62 0)
 			(effects
 				(font
@@ -47314,7 +47243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 266.7 388.62 0)
 			(effects
 				(font
@@ -47637,7 +47566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 39.37 171.45 0)
 			(effects
 				(font
@@ -47997,7 +47926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 452.12 328.93 0)
 			(effects
 				(font
@@ -48065,7 +47994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 458.47 328.93 0)
 			(effects
 				(font
@@ -48133,7 +48062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 464.82 328.93 0)
 			(effects
 				(font
@@ -48327,7 +48256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 377.19 0)
 			(effects
 				(font
@@ -48395,7 +48324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 17.78 397.51 0)
 			(effects
 				(font
@@ -49728,7 +49657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 567.69 229.87 0)
 			(effects
 				(font
@@ -49830,7 +49759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/51062/FAIRCHILD/74LS266.html"
+		(property "Datasheet" ""
 			(at 567.69 247.65 0)
 			(effects
 				(font
@@ -50191,7 +50120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 394.97 382.27 0)
 			(effects
 				(font
@@ -50259,7 +50188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 353.06 388.62 0)
 			(effects
 				(font
@@ -50293,7 +50222,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 375.92 389.89 0)
+		(at 375.92 388.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50301,7 +50230,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064924f84")
 		(property "Reference" "C12"
-			(at 378.46 388.62 0)
+			(at 378.46 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50310,7 +50239,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 378.46 389.89 0)
+			(at 378.46 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50319,7 +50248,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
-			(at 375.92 389.89 0)
+			(at 375.92 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50327,8 +50256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 375.92 389.89 0)
+		(property "Datasheet" ""
+			(at 375.92 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50337,7 +50266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 389.89 0)
+			(at 375.92 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50361,7 +50290,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 384.81 389.89 0)
+		(at 384.81 388.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50369,7 +50298,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006492b8b8")
 		(property "Reference" "C9"
-			(at 387.35 388.62 0)
+			(at 387.35 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50378,7 +50307,7 @@
 			)
 		)
 		(property "Value" "4700uF"
-			(at 387.35 389.89 0)
+			(at 387.35 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50387,7 +50316,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Axial_L55.0mm_D23.0mm_P60.00mm_Horizontal"
-			(at 384.81 389.89 0)
+			(at 384.81 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50395,8 +50324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 384.81 389.89 0)
+		(property "Datasheet" ""
+			(at 384.81 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50405,7 +50334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 384.81 389.89 0)
+			(at 384.81 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50464,7 +50393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 406.4 394.97 0)
 			(effects
 				(font
@@ -50532,7 +50461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 406.4 382.27 0)
 			(effects
 				(font
@@ -50600,7 +50529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 394.97 394.97 0)
 			(effects
 				(font
@@ -50755,6 +50684,70 @@
 			(project "P3"
 				(path "/b94c0cc6-780f-4e33-9eb2-931a72fdabfa"
 					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 412.75 403.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0432ff62-2879-4662-8bee-8ec4dd1f5075")
+		(property "Reference" "#FLG04"
+			(at 412.75 401.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 412.75 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 412.75 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 412.75 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 412.75 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "971424e0-fc16-490a-9723-6744151cd3a0")
+		)
+		(instances
+			(project "P3"
+				(path "/b94c0cc6-780f-4e33-9eb2-931a72fdabfa"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -51403,6 +51396,70 @@
 			(project "P3"
 				(path "/b94c0cc6-780f-4e33-9eb2-931a72fdabfa"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 411.48 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60b58c6a-b2dd-407e-877a-540e7b9a2b4b")
+		(property "Reference" "#FLG03"
+			(at 411.48 370.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 411.48 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 411.48 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 411.48 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90ae0aa9-412a-43ca-b23b-0cb937474e2c")
+		)
+		(instances
+			(project "P3"
+				(path "/b94c0cc6-780f-4e33-9eb2-931a72fdabfa"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
