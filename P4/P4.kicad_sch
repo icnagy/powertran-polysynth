@@ -3534,6 +3534,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MountingHole_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "P4-rescue:CP_Small-Device"
 			(pin_numbers
 				(hide yes)
@@ -7516,6 +7599,10 @@
 		(uuid "1ae2d0e0-bde8-4f1d-92ee-19a0b02ccb78")
 	)
 	(no_connect
+		(at 524.51 302.26)
+		(uuid "1d836041-8fff-4170-8918-6c267034069e")
+	)
+	(no_connect
 		(at 494.03 294.64)
 		(uuid "3020ce0b-c66f-47ff-a45c-71ecab5fc99d")
 	)
@@ -7618,6 +7705,10 @@
 	(no_connect
 		(at 480.06 97.79)
 		(uuid "a447f6fd-1deb-435a-8618-802bde4ab849")
+	)
+	(no_connect
+		(at 524.51 236.22)
+		(uuid "abc11511-9c6f-4628-bf2a-ca5f60a1e588")
 	)
 	(no_connect
 		(at 417.83 205.74)
@@ -13209,6 +13300,16 @@
 		)
 		(uuid "05d4d249-e12d-49cd-aa6e-0e4395d9ea55")
 	)
+	(label "41_VCA_ADSR_TRACK"
+		(at 524.51 279.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "069004e1-99a6-4527-b713-786f14e65b36")
+	)
 	(label "39_ADSR_~{CONT}"
 		(at 290.83 299.72 0)
 		(effects
@@ -13258,6 +13359,16 @@
 			(justify left bottom)
 		)
 		(uuid "0aa3377b-1e1d-4a5b-b578-c8cf7fcbf673")
+	)
+	(label "24_GND"
+		(at 524.51 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0acbad51-288e-48f7-b025-d3de1f526f8f")
 	)
 	(label "49_VCF_ADSR_S"
 		(at 455.93 325.12 0)
@@ -13348,6 +13459,16 @@
 			(justify left bottom)
 		)
 		(uuid "0ee09837-0e4b-4b2b-9eff-4ebfd161fa29")
+	)
+	(label "47_VCF_ADSR_A"
+		(at 524.51 299.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f9dec6b-3950-44f1-bc76-b710b6a73679")
 	)
 	(label "J6_4_G1"
 		(at 21.59 212.09 0)
@@ -13599,6 +13720,16 @@
 		)
 		(uuid "1e1d4ba2-bb77-4c34-ac02-5d80d8d13b29")
 	)
+	(label "6_VCO1_SQR"
+		(at 524.51 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1efda960-826a-40bb-b799-e27060fdfd50")
+	)
 	(label "25_VCO2_VOL"
 		(at 21.59 95.25 0)
 		(effects
@@ -13658,6 +13789,16 @@
 			(justify left bottom)
 		)
 		(uuid "21ce623d-f502-463c-a70a-a7bfa080db30")
+	)
+	(label "38_ADSR_TRACK_CVF"
+		(at 524.51 271.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21f342b2-1d33-4c17-9c6a-ceb12c39a7d8")
 	)
 	(label "19_VCO1_VOL"
 		(at 379.73 241.3 0)
@@ -13849,6 +13990,16 @@
 		)
 		(uuid "2baf4990-6011-43fe-936f-f4d9d5395666")
 	)
+	(label "9_VCO2_SQR"
+		(at 524.51 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cb6b202-e9ab-442b-aae8-f4b6a3231d0d")
+	)
 	(label "6_VCO1_SQR"
 		(at 341.63 208.28 0)
 		(effects
@@ -13858,6 +14009,16 @@
 			(justify left bottom)
 		)
 		(uuid "2dcdc12d-a62f-41c7-bff3-c90c02157f2e")
+	)
+	(label "10_VCO2_TRI"
+		(at 524.51 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e103034-d04b-4f63-8612-75c58c381e5b")
 	)
 	(label "31_VCF_PITCH_TRACK"
 		(at 455.93 279.4 0)
@@ -13918,6 +14079,16 @@
 			(justify left bottom)
 		)
 		(uuid "3241b889-f8b2-41e5-b6df-19d03a48e8a6")
+	)
+	(label "27_VCF_SWEEP_ADSR"
+		(at 524.51 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "329469cc-4488-4f99-bafa-cb2e2134452e")
 	)
 	(label "46_VCA_ADSR_R"
 		(at 455.93 317.5 0)
@@ -14149,6 +14320,16 @@
 		)
 		(uuid "3e19cda2-3eb9-420b-a50e-a5bd05884f15")
 	)
+	(label "15_SYNC"
+		(at 524.51 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e1edf66-1c15-4407-b8a9-cafa4bc2803a")
+	)
 	(label "5_L1"
 		(at 554.99 201.93 0)
 		(effects
@@ -14298,6 +14479,16 @@
 			(justify left bottom)
 		)
 		(uuid "4656aca6-4a55-45af-9c72-0448291ab101")
+	)
+	(label "17_VCO1_MOD"
+		(at 524.51 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46c8ae6a-9f2e-4d58-b1f1-1be0c5e40608")
 	)
 	(label "6_VCO1_SQR"
 		(at 455.93 208.28 0)
@@ -14819,6 +15010,16 @@
 		)
 		(uuid "61306893-8bdd-4eb7-883b-9941ea067961")
 	)
+	(label "48_VCF_ADSR_D"
+		(at 524.51 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6146410d-68be-4e86-902c-477e1d3d5af3")
+	)
 	(label "11_VCO2_SAW"
 		(at 417.83 220.98 0)
 		(effects
@@ -14979,6 +15180,16 @@
 		)
 		(uuid "66e24270-263e-473b-b03e-8b10d16e69ea")
 	)
+	(label "40_ADSR_CONT"
+		(at 524.51 274.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68ba1886-c921-4bc1-9df4-73d3c463598c")
+	)
 	(label "10_VCO2_TRI"
 		(at 290.83 218.44 0)
 		(effects
@@ -15119,6 +15330,16 @@
 		)
 		(uuid "6ded46c1-4127-4ed4-a23c-a6aab2d8bf11")
 	)
+	(label "46_VCA_ADSR_R"
+		(at 524.51 281.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f6a068e-0668-4991-964d-c0ddfb8da63b")
+	)
 	(label "1_PITCH_BEND"
 		(at 341.63 195.58 0)
 		(effects
@@ -15148,6 +15369,16 @@
 			(justify left bottom)
 		)
 		(uuid "725496ea-0e88-4f73-b93d-98aeb0929ac2")
+	)
+	(label "20_VCO2_VOL"
+		(at 524.51 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "732ab40b-fee1-4292-8397-5e9b0c576f88")
 	)
 	(label "1_-15V"
 		(at 21.59 21.59 0)
@@ -15599,6 +15830,16 @@
 		)
 		(uuid "89389b6d-0a63-42d9-b9fa-184c067d0ebd")
 	)
+	(label "39_ADSR_~{CONT}"
+		(at 524.51 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89db4cc7-d51a-4729-b1fe-2b3c05b1f1ff")
+	)
 	(label "42_G2"
 		(at 290.83 378.46 0)
 		(effects
@@ -15658,6 +15899,16 @@
 			(justify left bottom)
 		)
 		(uuid "8d2dad80-e9b0-4ae0-b8dd-86a9f761f6e3")
+	)
+	(label "7_VCO1_TRI"
+		(at 524.51 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e52fdfd-797a-42a6-a0b5-78fb50529c21")
 	)
 	(label "8_VCF_R"
 		(at 287.02 327.66 180)
@@ -15749,6 +16000,16 @@
 		)
 		(uuid "8fee04ee-a1fe-48ad-8020-22bc0dd6f9d0")
 	)
+	(label "30_VCF_SWEEP_DEPTH"
+		(at 524.51 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "908aee9b-9a84-481f-b0c2-f01e8256e20b")
+	)
 	(label "29_VCF_RESONANCE"
 		(at 341.63 274.32 0)
 		(effects
@@ -15818,6 +16079,16 @@
 			(justify right bottom)
 		)
 		(uuid "944ad4e4-6d23-416d-9e35-997c763994e6")
+	)
+	(label "8_VCO1_SAW"
+		(at 524.51 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94562dcc-835c-42a3-a820-2f870b86b25a")
 	)
 	(label "9_VCO2_SQR"
 		(at 417.83 215.9 0)
@@ -15908,6 +16179,16 @@
 			(justify left bottom)
 		)
 		(uuid "9c734b27-9227-4223-9de8-95dec46069bf")
+	)
+	(label "19_VCO1_VOL"
+		(at 524.51 248.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d75ba84-562b-4ad4-a609-a9b512be6a45")
 	)
 	(label "21_+15V"
 		(at 379.73 246.38 0)
@@ -16239,6 +16520,16 @@
 		)
 		(uuid "b01c1d70-7abc-44f7-a2f6-511e546ff663")
 	)
+	(label "18_VCO2_MOD"
+		(at 524.51 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0519689-3c75-40d5-9a75-d0d3f0d31d8b")
+	)
 	(label "24_GND"
 		(at 566.42 68.58 0)
 		(effects
@@ -16258,6 +16549,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0a682ec-e5c3-4a48-bbde-630e63333dfa")
+	)
+	(label "1_PITCH_BEND"
+		(at 524.51 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0b72d81-1c81-45bc-9bb8-9c9d29ad5255")
 	)
 	(label "39_ADSR_~{CONT}"
 		(at 341.63 299.72 0)
@@ -16328,6 +16629,16 @@
 			(justify left bottom)
 		)
 		(uuid "b3ee941c-22d4-43b3-a4cc-0c3fc46d94d8")
+	)
+	(label "49_VCF_ADSR_S"
+		(at 524.51 294.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b43bfcd2-51bf-43f1-b6fe-08b93d158cec")
 	)
 	(label "18_NOISE_VOLUME"
 		(at 287.02 284.48 180)
@@ -16469,6 +16780,16 @@
 		)
 		(uuid "b8505a9f-c0f1-4b4b-99de-bf5d9c406771")
 	)
+	(label "45_VCA_ADSR_S"
+		(at 524.51 284.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8cf3d29-430a-4787-a9ea-8d3767ef6255")
+	)
 	(label "21_+15V"
 		(at 494.03 246.38 0)
 		(effects
@@ -16559,6 +16880,16 @@
 		)
 		(uuid "bca5cd53-92f3-4115-9d92-0ad41ba54434")
 	)
+	(label "31_VCF_PITCH_TRACK"
+		(at 524.51 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcb351a2-701c-43ae-a80d-2641d0454e66")
+	)
 	(label "9_VCO2_SQR"
 		(at 379.73 215.9 0)
 		(effects
@@ -16598,6 +16929,16 @@
 			(justify left bottom)
 		)
 		(uuid "bea4a547-680a-4bcf-b22a-a7317ccd03fd")
+	)
+	(label "11_VCO2_SAW"
+		(at 524.51 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bed2c044-6ada-4b63-8d44-19a0673de224")
 	)
 	(label "12_VOICE3_VCO2_TUNE"
 		(at 417.83 223.52 0)
@@ -16819,6 +17160,16 @@
 		)
 		(uuid "c8c94ce7-45d3-48a7-8dbc-a817cf5e1751")
 	)
+	(label "33_NOISE"
+		(at 524.51 269.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c99b05d4-484d-4833-8d0e-0acc7cfc486a")
+	)
 	(label "27_VCF_SWEEP_ADSR"
 		(at 290.83 269.24 0)
 		(effects
@@ -16828,6 +17179,26 @@
 			(justify left bottom)
 		)
 		(uuid "ca984e42-d726-4a7f-a5af-8e22b1e860c7")
+	)
+	(label "28_VCF_FREQUENCY"
+		(at 524.51 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca9eed92-d130-41cd-b594-34038e12e389")
+	)
+	(label "44_VCA_ADSR_D"
+		(at 524.51 287.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb434e12-9f28-4982-b220-05492cc14353")
 	)
 	(label "39_ADSR_~{CONT}"
 		(at 379.73 299.72 0)
@@ -17059,6 +17430,26 @@
 		)
 		(uuid "d4ba4bdf-78c1-4a2f-89ee-bed8fb0990f0")
 	)
+	(label "16_VIBRATO_DEPTH"
+		(at 524.51 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d52b36a3-0652-4686-90dd-d22609a0d465")
+	)
+	(label "29_VCF_RESONANCE"
+		(at 524.51 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5691d18-a170-43be-91d2-b60918f06d41")
+	)
 	(label "6_VCF_D"
 		(at 21.59 34.29 0)
 		(effects
@@ -17068,6 +17459,16 @@
 			(justify left bottom)
 		)
 		(uuid "d5c9e3d4-a2ba-4e29-9c5a-fa6e6e049776")
+	)
+	(label "13_TRANSPOSE"
+		(at 524.51 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5e3c183-54fb-4725-b823-83f3323e3dc0")
 	)
 	(label "+"
 		(at 466.09 40.64 0)
@@ -17459,6 +17860,16 @@
 		)
 		(uuid "e9cd40e3-7fdb-4c2e-95c4-0cb5844aa2ff")
 	)
+	(label "50_VCF_ADSR_R"
+		(at 524.51 292.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea70a15b-2650-49bb-86ff-2a5bfeeef900")
+	)
 	(label "11_VCO2_SAW"
 		(at 290.83 220.98 0)
 		(effects
@@ -17769,6 +18180,16 @@
 		)
 		(uuid "fbb6a9b2-346d-44b6-83fa-bb6609cccb6d")
 	)
+	(label "43_VCA_ADSR_A"
+		(at 524.51 289.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc1f3bf4-2f3d-437b-9934-5652daf464c3")
+	)
 	(label "VOICE1_PORTAMENTO"
 		(at 213.36 179.07 0)
 		(effects
@@ -17865,7 +18286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
+		(property "Datasheet" ""
 			(at 483.87 86.36 0)
 			(effects
 				(font
@@ -17951,7 +18372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
+		(property "Datasheet" ""
 			(at 119.38 266.7 0)
 			(effects
 				(font
@@ -18037,7 +18458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf"
+		(property "Datasheet" ""
 			(at 544.83 111.76 0)
 			(effects
 				(font
@@ -18108,7 +18529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 439.42 85.09 0)
 			(effects
 				(font
@@ -18240,7 +18661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 483.87 73.66 90)
 			(effects
 				(font
@@ -18307,7 +18728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 186.69 94.615 0)
 			(effects
 				(font
@@ -18415,7 +18836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 132.08 337.185 0)
 			(effects
 				(font
@@ -18524,7 +18945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 186.69 43.815 0)
 			(effects
 				(font
@@ -18632,7 +19053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 132.08 353.695 0)
 			(effects
 				(font
@@ -18742,7 +19163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 477.52 128.905 0)
 			(effects
 				(font
@@ -18916,7 +19337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 186.69 196.215 0)
 			(effects
 				(font
@@ -19024,7 +19445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 151.13 337.185 0)
 			(effects
 				(font
@@ -19133,7 +19554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 186.69 145.415 0)
 			(effects
 				(font
@@ -19241,7 +19662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 151.13 353.695 0)
 			(effects
 				(font
@@ -19351,7 +19772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 490.22 128.905 0)
 			(effects
 				(font
@@ -19461,7 +19882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 502.92 128.905 0)
 			(effects
 				(font
@@ -19569,7 +19990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 170.18 353.695 0)
 			(effects
 				(font
@@ -19677,7 +20098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 48.26 267.335 0)
 			(effects
 				(font
@@ -19785,7 +20206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 170.18 337.185 0)
 			(effects
 				(font
@@ -19893,7 +20314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF"
+		(property "Datasheet" ""
 			(at 166.37 375.285 0)
 			(effects
 				(font
@@ -20006,7 +20427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" ""
 			(at 509.27 90.17 0)
 			(effects
 				(font
@@ -20141,7 +20562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 506.73 85.09 0)
 			(effects
 				(font
@@ -21806,7 +22227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 375.92 0)
 			(effects
 				(font
@@ -21877,7 +22298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 496.57 85.09 0)
 			(effects
 				(font
@@ -21947,7 +22368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 16.51 214.63 0)
 			(effects
 				(font
@@ -22038,7 +22459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 16.51 177.8 0)
 			(effects
 				(font
@@ -22129,7 +22550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 16.51 31.75 0)
 			(effects
 				(font
@@ -22220,7 +22641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 16.51 63.5 0)
 			(effects
 				(font
@@ -22311,7 +22732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 16.51 95.25 0)
 			(effects
 				(font
@@ -22402,7 +22823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 16.51 127 0)
 			(effects
 				(font
@@ -22494,7 +22915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 553.72 116.84 0)
 			(effects
 				(font
@@ -22561,7 +22982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 16.51 153.67 0)
 			(effects
 				(font
@@ -22764,7 +23185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 520.7 85.09 0)
 			(effects
 				(font
@@ -22832,7 +23253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 535.94 76.2 0)
 			(effects
 				(font
@@ -23927,7 +24348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 415.29 30.48 0)
 			(effects
 				(font
@@ -23994,7 +24415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 415.29 40.64 0)
 			(effects
 				(font
@@ -24061,7 +24482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 415.29 50.8 0)
 			(effects
 				(font
@@ -24128,7 +24549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 415.29 60.96 0)
 			(effects
 				(font
@@ -24195,7 +24616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 388.62 33.02 0)
 			(effects
 				(font
@@ -24330,7 +24751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 396.24 73.66 0)
 			(effects
 				(font
@@ -24528,7 +24949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 450.85 60.96 0)
 			(effects
 				(font
@@ -24596,7 +25017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 492.76 58.42 0)
 			(effects
 				(font
@@ -24664,7 +25085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 502.92 53.34 0)
 			(effects
 				(font
@@ -24735,7 +25156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 502.92 62.23 0)
 			(effects
 				(font
@@ -24933,7 +25354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 525.78 53.34 0)
 			(effects
 				(font
@@ -25001,7 +25422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 502.92 44.45 0)
 			(effects
 				(font
@@ -25069,7 +25490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 502.92 35.56 0)
 			(effects
 				(font
@@ -25135,7 +25556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 495.3 111.76 0)
 			(effects
 				(font
@@ -25201,7 +25622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 464.82 92.71 0)
 			(effects
 				(font
@@ -25267,7 +25688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 530.86 111.76 0)
 			(effects
 				(font
@@ -25333,7 +25754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 72.39 375.92 0)
 			(effects
 				(font
@@ -25399,7 +25820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 323.85 46.99 0)
 			(effects
 				(font
@@ -25465,7 +25886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 323.85 63.5 0)
 			(effects
 				(font
@@ -25531,7 +25952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 323.85 78.74 0)
 			(effects
 				(font
@@ -25597,7 +26018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 323.85 93.98 0)
 			(effects
 				(font
@@ -25663,7 +26084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 318.77 104.14 0)
 			(effects
 				(font
@@ -25729,7 +26150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -25929,7 +26350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" ""
 			(at 500.38 22.86 0)
 			(effects
 				(font
@@ -26001,7 +26422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 439.42 46.99 0)
 			(effects
 				(font
@@ -26067,7 +26488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 314.96 87.63 0)
 			(effects
 				(font
@@ -26133,7 +26554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 314.96 72.39 0)
 			(effects
 				(font
@@ -26199,7 +26620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 314.96 55.88 0)
 			(effects
 				(font
@@ -26265,7 +26686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 314.96 39.37 0)
 			(effects
 				(font
@@ -26331,7 +26752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 289.56 44.45 0)
 			(effects
 				(font
@@ -26397,7 +26818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 289.56 60.96 0)
 			(effects
 				(font
@@ -26463,7 +26884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 289.56 76.2 0)
 			(effects
 				(font
@@ -26529,7 +26950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 289.56 91.44 0)
 			(effects
 				(font
@@ -26597,7 +27018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 202.2348 332.74 0)
 			(effects
 				(font
@@ -26659,7 +27080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 202.2348 339.09 0)
 			(effects
 				(font
@@ -26721,7 +27142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 202.2348 345.44 0)
 			(effects
 				(font
@@ -26748,11 +27169,12 @@
 		)
 	)
 	(symbol
+		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
 		(at 222.25 331.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f10b9b3")
@@ -26774,7 +27196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(property "Footprint" ""
 			(at 222.25 331.47 0)
 			(effects
 				(font
@@ -26783,7 +27205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 331.47 0)
 			(effects
 				(font
@@ -26798,6 +27220,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -26814,7 +27237,7 @@
 		(at 222.25 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f10d10f")
@@ -26845,7 +27268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 336.55 0)
 			(effects
 				(font
@@ -26876,7 +27299,7 @@
 		(at 222.25 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f10d71f")
@@ -26907,7 +27330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 341.63 0)
 			(effects
 				(font
@@ -26938,7 +27361,7 @@
 		(at 222.25 346.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f10d725")
@@ -26969,7 +27392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 346.71 0)
 			(effects
 				(font
@@ -27000,7 +27423,7 @@
 		(at 222.25 351.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f15d688")
@@ -27031,7 +27454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 351.79 0)
 			(effects
 				(font
@@ -27062,7 +27485,7 @@
 		(at 240.03 331.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f15e69d")
@@ -27093,7 +27516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 240.03 331.47 0)
 			(effects
 				(font
@@ -27124,7 +27547,7 @@
 		(at 240.03 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f15e6a3")
@@ -27155,7 +27578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 240.03 336.55 0)
 			(effects
 				(font
@@ -27186,7 +27609,7 @@
 		(at 240.03 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f15e6a9")
@@ -27217,7 +27640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 240.03 341.63 0)
 			(effects
 				(font
@@ -27248,7 +27671,7 @@
 		(at 240.03 346.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f15e6af")
@@ -27279,7 +27702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 240.03 346.71 0)
 			(effects
 				(font
@@ -27310,7 +27733,7 @@
 		(at 240.03 351.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f15e6b5")
@@ -27341,7 +27764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 240.03 351.79 0)
 			(effects
 				(font
@@ -27468,7 +27891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 44.45 252.73 0)
 			(effects
 				(font
@@ -27536,7 +27959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 275.59 0)
 			(effects
 				(font
@@ -27604,7 +28027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 284.48 0)
 			(effects
 				(font
@@ -27672,7 +28095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 34.29 284.48 0)
 			(effects
 				(font
@@ -27740,7 +28163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 46.99 284.48 0)
 			(effects
 				(font
@@ -27938,7 +28361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 55.88 285.75 0)
 			(effects
 				(font
@@ -28004,7 +28427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 267.97 0)
 			(effects
 				(font
@@ -28072,7 +28495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 280.67 0)
 			(effects
 				(font
@@ -28205,7 +28628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 88.9 284.48 0)
 			(effects
 				(font
@@ -28273,7 +28696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 99.06 280.67 0)
 			(effects
 				(font
@@ -28469,7 +28892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 270.51 0)
 			(effects
 				(font
@@ -28537,7 +28960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 278.13 0)
 			(effects
 				(font
@@ -28605,7 +29028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 288.29 0)
 			(effects
 				(font
@@ -28737,7 +29160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 488.95 226.06 0)
 			(effects
 				(font
@@ -28873,7 +29296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 488.95 297.18 0)
 			(effects
 				(font
@@ -29137,7 +29560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.34 330.2 0)
 			(effects
 				(font
@@ -29204,7 +29627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.34 340.36 0)
 			(effects
 				(font
@@ -29272,7 +29695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 38.1 335.28 0)
 			(effects
 				(font
@@ -29343,7 +29766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 340.36 0)
 			(effects
 				(font
@@ -29475,7 +29898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 39.37 90)
 			(effects
 				(font
@@ -29606,7 +30029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -29672,7 +30095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 208.28 31.75 0)
 			(effects
 				(font
@@ -29740,7 +30163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 24.13 0)
 			(effects
 				(font
@@ -29806,7 +30229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 40.64 0)
 			(effects
 				(font
@@ -29872,7 +30295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 29.21 0)
 			(effects
 				(font
@@ -29940,7 +30363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 204.47 49.53 0)
 			(effects
 				(font
@@ -30134,7 +30557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -30202,7 +30625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 74.93 0)
 			(effects
 				(font
@@ -30268,7 +30691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 91.44 0)
 			(effects
 				(font
@@ -30334,7 +30757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 80.01 0)
 			(effects
 				(font
@@ -30402,7 +30825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 204.47 100.33 0)
 			(effects
 				(font
@@ -30596,7 +31019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 208.28 133.35 0)
 			(effects
 				(font
@@ -30664,7 +31087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -30730,7 +31153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 142.24 0)
 			(effects
 				(font
@@ -30796,7 +31219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 130.81 0)
 			(effects
 				(font
@@ -30864,7 +31287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 204.47 151.13 0)
 			(effects
 				(font
@@ -31058,7 +31481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 208.28 184.15 0)
 			(effects
 				(font
@@ -31126,7 +31549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 176.53 0)
 			(effects
 				(font
@@ -31192,7 +31615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 193.04 0)
 			(effects
 				(font
@@ -31258,7 +31681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 181.61 0)
 			(effects
 				(font
@@ -31326,7 +31749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 204.47 201.93 0)
 			(effects
 				(font
@@ -31716,7 +32139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 549.91 201.93 0)
 			(effects
 				(font
@@ -31807,7 +32230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 549.91 234.95 0)
 			(effects
 				(font
@@ -32149,7 +32572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_4.00mm:PinSocket_1x25_P4.00mm_Vertical"
 			(at 336.55 226.06 0)
 			(effects
 				(font
@@ -32158,7 +32581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 226.06 0)
 			(effects
 				(font
@@ -32285,7 +32708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_4.00mm:PinSocket_1x25_P4.00mm_Vertical"
 			(at 336.55 297.18 0)
 			(effects
 				(font
@@ -32294,7 +32717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 297.18 0)
 			(effects
 				(font
@@ -32421,7 +32844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_4.00mm:PinSocket_1x25_P4.00mm_Vertical"
 			(at 374.65 226.06 0)
 			(effects
 				(font
@@ -32430,7 +32853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 374.65 226.06 0)
 			(effects
 				(font
@@ -32557,7 +32980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_4.00mm:PinSocket_1x25_P4.00mm_Vertical"
 			(at 374.65 297.18 0)
 			(effects
 				(font
@@ -32566,7 +32989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 374.65 297.18 0)
 			(effects
 				(font
@@ -32693,7 +33116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_4.00mm:PinSocket_1x25_P4.00mm_Vertical"
 			(at 412.75 226.06 0)
 			(effects
 				(font
@@ -32702,7 +33125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 412.75 226.06 0)
 			(effects
 				(font
@@ -32829,7 +33252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_4.00mm:PinSocket_1x25_P4.00mm_Vertical"
 			(at 412.75 297.18 0)
 			(effects
 				(font
@@ -32838,7 +33261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 412.75 297.18 0)
 			(effects
 				(font
@@ -32965,7 +33388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_4.00mm:PinSocket_1x25_P4.00mm_Vertical"
 			(at 450.85 226.06 0)
 			(effects
 				(font
@@ -32974,7 +33397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 450.85 226.06 0)
 			(effects
 				(font
@@ -33101,7 +33524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_4.00mm:PinSocket_1x25_P4.00mm_Vertical"
 			(at 450.85 297.18 0)
 			(effects
 				(font
@@ -33110,7 +33533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 450.85 297.18 0)
 			(effects
 				(font
@@ -33246,7 +33669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm723.pdf"
+		(property "Datasheet" ""
 			(at 466.09 58.42 0)
 			(effects
 				(font
@@ -33514,7 +33937,7 @@
 		(at 63.5 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064155ef7")
@@ -33543,7 +33966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -33608,7 +34031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 157.48 273.05 0)
 			(effects
 				(font
@@ -33638,6 +34061,239 @@
 			(project "P4"
 				(path "/2c9a711c-ac33-4f5c-b1a5-52ff5cce63fc"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x25")
+		(at 519.43 246.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1618a3-c701-4972-b012-f804a99a2f3e")
+		(property "Reference" "J10"
+			(at 516.89 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x25"
+			(at 516.89 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x25_P2.54mm_Vertical"
+			(at 519.43 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 519.43 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 519.43 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e1b3af9-cb65-4940-8dd1-46a6a14cc8d7")
+		)
+		(pin "10"
+			(uuid "c796fe75-cfe5-4532-ab8f-ed4f8927355f")
+		)
+		(pin "11"
+			(uuid "32a29c74-e0be-44d8-a362-6e2e4802549a")
+		)
+		(pin "12"
+			(uuid "32ec5571-a669-4de7-9921-9fdd81ed23dc")
+		)
+		(pin "13"
+			(uuid "2e2e9215-6464-4419-88dc-e3099712185d")
+		)
+		(pin "14"
+			(uuid "f62c8ee0-0934-414a-bc6f-4c15473655f9")
+		)
+		(pin "15"
+			(uuid "c63db3d0-325f-40d3-97ae-c5f993557c30")
+		)
+		(pin "16"
+			(uuid "4675ccce-286e-45da-9d01-2f2c08837ba8")
+		)
+		(pin "17"
+			(uuid "fad79a48-d300-49f0-b6a9-6a239f95aaa9")
+		)
+		(pin "18"
+			(uuid "7dc8aad7-cf96-428e-8116-0800e8a4c1ef")
+		)
+		(pin "19"
+			(uuid "ccc5d5ec-12af-4818-a999-92b161d2033c")
+		)
+		(pin "2"
+			(uuid "eb3223d5-bc0d-40bc-8bed-8d99c71c9b0e")
+		)
+		(pin "20"
+			(uuid "8d0affa1-7be2-4b03-a5f4-8a7b7d7bba3b")
+		)
+		(pin "21"
+			(uuid "6f6d1e13-5598-436f-a09a-cd2634272c46")
+		)
+		(pin "22"
+			(uuid "3707856a-c648-44c7-8f4e-a81bdf0a4fbe")
+		)
+		(pin "23"
+			(uuid "f9761479-58c8-4375-8d9e-e79810ac10d3")
+		)
+		(pin "24"
+			(uuid "f0df6f0b-379c-42d6-9b0e-97fdee9f58f6")
+		)
+		(pin "25"
+			(uuid "e6b5ee94-984a-4ae6-9165-53f86c274a9d")
+		)
+		(pin "3"
+			(uuid "a27f2100-da51-42e1-b17d-f7b2f96e6153")
+		)
+		(pin "4"
+			(uuid "640bd8b3-b2c6-4709-9afd-ec27388507fa")
+		)
+		(pin "5"
+			(uuid "a08e8dc0-8b00-496b-b11c-584293fc42a8")
+		)
+		(pin "6"
+			(uuid "ba3c8d4e-7cc9-4db3-8371-e6f10f9358b9")
+		)
+		(pin "7"
+			(uuid "1fba76f4-a57c-42d0-bf4a-b2d07e05af0a")
+		)
+		(pin "8"
+			(uuid "b301d97c-3fa5-42b3-92c4-7d03b5c2a450")
+		)
+		(pin "9"
+			(uuid "3429aca7-67c2-47d1-acfc-cf41f4432fb5")
+		)
+		(instances
+			(project "P4"
+				(path "/2c9a711c-ac33-4f5c-b1a5-52ff5cce63fc"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 519.43 289.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77fff8d2-90f6-4f72-9b4c-7b1060c30ad3")
+		(property "Reference" "J23"
+			(at 516.89 289.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 516.89 292.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+			(at 519.43 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 519.43 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 519.43 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cbcad02-e1bb-4a94-bfb4-4ee5dafef32d")
+		)
+		(pin "10"
+			(uuid "e38b5ee4-94dd-43d6-aaad-0cca358828cf")
+		)
+		(pin "2"
+			(uuid "86b2e74e-a37b-4c2c-8829-1c664dadb7be")
+		)
+		(pin "3"
+			(uuid "13446693-0624-439a-b1e8-0699d4e62a57")
+		)
+		(pin "4"
+			(uuid "550f31c1-6010-448c-bd1c-0d377e908011")
+		)
+		(pin "5"
+			(uuid "9849bee9-64a7-4415-ab8d-17fb359cdf00")
+		)
+		(pin "6"
+			(uuid "c9facb17-bb1a-4a50-90d7-10a756c9f81d")
+		)
+		(pin "7"
+			(uuid "71aefac4-d557-4199-9fc5-2c1481473f1d")
+		)
+		(pin "8"
+			(uuid "3a29053d-cb4b-4fac-a39c-78459f6e494b")
+		)
+		(pin "9"
+			(uuid "59c4e52c-c0bd-423a-8902-e3a724a883f0")
+		)
+		(instances
+			(project "P4"
+				(path "/2c9a711c-ac33-4f5c-b1a5-52ff5cce63fc"
+					(reference "J23")
 					(unit 1)
 				)
 			)
