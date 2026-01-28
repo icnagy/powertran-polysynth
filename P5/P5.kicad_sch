@@ -10375,7 +10375,7 @@
 		(uuid "5e8dd513-3c24-4e79-a2aa-e8df35ce177a")
 	)
 	(label "12_VCA_D"
-		(at 31.75 45.72 0)
+		(at 31.75 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10555,7 +10555,7 @@
 		(uuid "98a98f86-79f0-4017-a076-1e8d4d2c65c4")
 	)
 	(label "14_VCA_R"
-		(at 31.75 50.8 0)
+		(at 31.75 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25908,7 +25908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 396.24 63.5 0)
 			(effects
 				(font
@@ -25917,7 +25917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 396.24 63.5 0)
 			(effects
 				(font
