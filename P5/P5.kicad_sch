@@ -5541,6 +5541,12 @@
 		(uuid "6dd7354f-4adf-4a93-bb3b-6e13f4319ae2")
 	)
 	(junction
+		(at 328.93 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ebabc4f-439a-43b4-bf11-59ba6a5c3fa8")
+	)
+	(junction
 		(at 269.24 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5557,6 +5563,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7503cd17-5d18-433a-9654-a333f5e209bd")
+	)
+	(junction
+		(at 328.93 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7815b58a-5422-4b92-a5b9-1ac7bc7b1f76")
 	)
 	(junction
 		(at 181.61 218.44)
@@ -5946,7 +5958,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 82.55) (xy 325.12 82.55)
+			(xy 335.28 82.55) (xy 328.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6966,6 +6978,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 97.79) (xy 325.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493a1416-c29b-4025-ac68-bf3382148538")
+	)
+	(wire
+		(pts
 			(xy 148.59 134.62) (xy 148.59 128.27)
 		)
 		(stroke
@@ -7776,6 +7798,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 82.55) (xy 325.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca253f4-8818-4eac-995f-e2af98408be6")
+	)
+	(wire
+		(pts
 			(xy 86.36 115.57) (xy 87.63 115.57)
 		)
 		(stroke
@@ -7966,7 +7998,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 97.79) (xy 325.12 97.79)
+			(xy 335.28 97.79) (xy 328.93 97.79)
 		)
 		(stroke
 			(width 0)
@@ -11705,11 +11737,13 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 71.12 36.83 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000060fd6705")
 		(property "Reference" "U1"
 			(at 71.12 26.67 0)
@@ -16330,11 +16364,13 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 163.83 36.83 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006122355f")
 		(property "Reference" "U4"
 			(at 163.83 26.67 0)
@@ -17649,7 +17685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P2.50mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 326.39 41.91 0)
 			(effects
 				(font
@@ -17658,7 +17694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 326.39 41.91 0)
 			(effects
 				(font
@@ -20703,8 +20739,7 @@
 	)
 	(symbol
 		(lib_id "P5:SW_Rotary1x3")
-		(at 341.63 227.33 0)
-		(mirror y)
+		(at 341.63 227.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20712,7 +20747,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006183d6b2")
 		(property "Reference" "SW6"
-			(at 340.36 218.44 0)
+			(at 340.36 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20720,7 +20755,7 @@
 			)
 		)
 		(property "Value" "SW_Rotary1x3"
-			(at 340.36 220.98 0)
+			(at 340.36 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20728,7 +20763,7 @@
 			)
 		)
 		(property "Footprint" "P5:SR2612F-0304-18R0B-D8-N"
-			(at 344.17 219.71 0)
+			(at 344.17 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20737,7 +20772,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
-			(at 344.17 219.71 0)
+			(at 344.17 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21596,7 +21631,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 377.19 237.49 180)
+		(at 377.19 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21604,7 +21639,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618f9785")
 		(property "Reference" "#PWR0152"
-			(at 377.19 240.03 0)
+			(at 377.19 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21613,70 +21648,6 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 375.92 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 377.19 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 377.19 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4069206c-a348-4059-8a5c-154298f7941b")
-		)
-		(instances
-			(project "P5"
-				(path "/ea4598ea-5853-40f6-8351-3048776a4653"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 377.19 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000618f9b93")
-		(property "Reference" "#PWR0153"
-			(at 377.19 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V"
 			(at 378.46 217.17 0)
 			(effects
 				(font
@@ -21704,6 +21675,70 @@
 		)
 		(property "Description" ""
 			(at 377.19 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4069206c-a348-4059-8a5c-154298f7941b")
+		)
+		(instances
+			(project "P5"
+				(path "/ea4598ea-5853-40f6-8351-3048776a4653"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 377.19 237.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000618f9b93")
+		(property "Reference" "#PWR0153"
+			(at 377.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 375.92 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 377.19 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21950,7 +21985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 375.92 86.36 0)
 			(effects
 				(font
@@ -21959,7 +21994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 375.92 86.36 0)
 			(effects
 				(font
@@ -22018,7 +22053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 375.92 93.98 0)
 			(effects
 				(font
@@ -22027,7 +22062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 375.92 93.98 0)
 			(effects
 				(font
@@ -25701,7 +25736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 336.55 63.5 0)
 			(effects
 				(font
@@ -25710,7 +25745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 63.5 0)
 			(effects
 				(font
@@ -25737,6 +25772,70 @@
 			(project "P5"
 				(path "/ea4598ea-5853-40f6-8351-3048776a4653"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 328.93 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fefd1d1-3105-418d-a195-eb169b507a8b")
+		(property "Reference" "#PWR01"
+			(at 328.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 330.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de362bbe-3ea7-4bd1-8945-f84e375afd15")
+		)
+		(instances
+			(project "P5"
+				(path "/ea4598ea-5853-40f6-8351-3048776a4653"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -25839,7 +25938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 350.52 63.5 0)
 			(effects
 				(font
@@ -25848,7 +25947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 350.52 63.5 0)
 			(effects
 				(font
@@ -25944,6 +26043,70 @@
 			(project "P5"
 				(path "/ea4598ea-5853-40f6-8351-3048776a4653"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 328.93 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d291fa4e-ab69-45e6-80b8-a8755115ae04")
+		(property "Reference" "#PWR02"
+			(at 328.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 328.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4f433e6-2927-48eb-9756-34d843e5e612")
+		)
+		(instances
+			(project "P5"
+				(path "/ea4598ea-5853-40f6-8351-3048776a4653"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
