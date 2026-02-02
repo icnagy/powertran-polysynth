@@ -23247,7 +23247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 553.72 116.84 0)
 			(effects
 				(font
@@ -23585,7 +23585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 535.94 76.2 0)
 			(effects
 				(font
@@ -25062,7 +25062,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005efc309b")
 		(property "Reference" "R44"
@@ -25281,7 +25281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 450.85 60.96 0)
 			(effects
 				(font
@@ -25686,7 +25686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 525.78 53.34 0)
 			(effects
 				(font
@@ -27537,7 +27537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 222.25 331.47 0)
 			(effects
 				(font
@@ -30008,9 +30008,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005f6e9c4f")
 		(property "Reference" "RV_PITCH_BEND1"
-			(at 35.56 334.01 0)
+			(at 35.56 334.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30019,7 +30020,7 @@
 			)
 		)
 		(property "Value" "R_POT"
-			(at 35.56 335.28 0)
+			(at 35.56 336.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
