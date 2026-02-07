@@ -5466,6 +5466,16 @@
 		)
 		(uuid "8ec176c3-7107-4af2-8871-3b4d20eaa34a")
 	)
+	(text "On PCB R94 is after \nthe junction, just \nbefore IC3 PIN 8"
+		(exclude_from_sim no)
+		(at 284.48 196.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b485d11d-ecef-459f-9919-d550e5ac30c4")
+	)
 	(junction
 		(at 307.34 88.9)
 		(diameter 0)
@@ -10640,7 +10650,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 187.96) (xy 269.24 190.5)
+			(xy 269.24 187.96) (xy 269.24 189.23)
 		)
 		(stroke
 			(width 0)
@@ -43370,7 +43380,7 @@
 		(uuid "05a6bf10-c64d-4bf8-a08a-0b364edb41e7")
 	)
 	(label "-15V"
-		(at 269.24 190.5 180)
+		(at 269.24 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45899,16 +45909,6 @@
 		)
 		(uuid "f17a50e8-0c6b-419f-8d0b-ca7dcea5b3ec")
 	)
-	(label "-15V"
-		(at 48.26 283.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2a2b6f1-3545-4975-bb8f-3b201c8c53ee")
-	)
 	(label "IC13_PIN14"
 		(at 365.76 311.15 0)
 		(effects
@@ -45918,6 +45918,16 @@
 			(justify left bottom)
 		)
 		(uuid "f31efee3-1e8f-431e-8944-54d78ecc295b")
+	)
+	(label "GND"
+		(at 48.26 283.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4879f06-da88-4195-91ed-6c30789ee6f6")
 	)
 	(label "+15V"
 		(at 134.62 212.09 180)
@@ -47651,7 +47661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266P_Horizontal"
 			(at 86.36 255.27 0)
 			(effects
 				(font
@@ -51239,7 +51249,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 104.14 196.85 0)
 			(effects
 				(font
@@ -51640,7 +51650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 104.14 67.31 0)
 			(effects
 				(font
@@ -52505,7 +52515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 528.32 66.04 0)
 			(effects
 				(font
@@ -52647,7 +52657,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 124.46 163.83 0)
 			(effects
 				(font
@@ -53622,7 +53632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 317.5 153.67 0)
 			(effects
 				(font
@@ -56021,7 +56031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 86.36 93.98 0)
 			(effects
 				(font
@@ -57453,7 +57463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
 			(at 312.42 116.84 0)
 			(effects
 				(font
@@ -58463,7 +58473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P5.00mm"
 			(at 123.19 25.4 0)
 			(effects
 				(font
@@ -59316,7 +59326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 407.67 171.45 0)
 			(effects
 				(font
@@ -60731,7 +60741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 393.7 78.74 0)
 			(effects
 				(font
@@ -60804,7 +60814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266P_Horizontal"
 			(at 86.36 121.92 0)
 			(effects
 				(font
@@ -62281,7 +62291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 86.36 223.52 0)
 			(effects
 				(font
